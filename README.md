@@ -85,7 +85,34 @@ These datasets support additional retail and inventory analysis.
 - RegionManager
 
 ---
+# Project Workflow Architecture
 
+Raw CSV Dataset
+↓
+Excel Data Cleaning
+↓
+Python Data Exploration
+↓
+MySQL Database Import
+↓
+SQL Analysis & Aggregations
+↓
+Power BI Dashboard Preparation
+↓
+Business Insights & Reporting
+# Excel Data Cleaning Performed
+
+The dataset was cleaned in Excel before importing into SQL.
+
+### Cleaning Tasks
+- Handled missing values
+- Replaced missing Promotion values with "UNKNOWN"
+- Removed inconsistencies
+- Standardized date formats
+- Corrected data types
+- Validated columns
+- Checked duplicate records
+- Fixed CSV import issues
 # Data Cleaning Process
 
 ## 1. Removed Duplicate Records
@@ -113,7 +140,36 @@ Validated:
 - Invalid entries
 
 ---
+## Excel Calculated Columns
 
+##Delivery_Days
+
+Calculated delivery turnaround time using:
+
+```excel
+=DATEDIF(OrderDate,DeliveryDate,"D")
+# SQL Work Performed
+
+The cleaned retail dataset was imported into MySQL for structured business analysis.
+
+## SQL Operations Used
+- SELECT
+- WHERE
+- GROUP BY
+- ORDER BY
+- Aggregate Functions
+- Date Functions
+- Revenue Calculations
+
+---
+
+## SQL Business Analysis
+
+### Total Revenue Analysis
+
+```sql
+SELECT SUM(TotalPrice) AS Total_Revenue
+FROM omnichannel_retail_cleaned;
 # Key Performance Indicators (KPIs)
 
 - Total Sales
