@@ -181,9 +181,27 @@ FROM omnichannel_retail_cleaned;
 - Inventory Monitoring
 
 ---
+## Dashboard Progress
+
+### KPIs
+- Total Revenue: 4.38M
+- Total Orders: 2K
+- Average Order Value: 2.9K
+- Return Rate: 24.8%
+
+### Visualizations Completed
+- Monthly Revenue Trend
+- KPI Cards
+
+### Upcoming Visualizations
+- Revenue by Region
+- Product Performance Analysis
+- Payment Method Distribution
+- Customer Type Analysis
 
 # Tools Used
 
+- POWER BI
 - Excel
 - GitHub
 - Data Cleaning Techniques
