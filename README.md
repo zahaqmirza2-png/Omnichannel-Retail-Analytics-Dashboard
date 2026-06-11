@@ -199,6 +199,89 @@ FROM omnichannel_retail_cleaned;
 - Payment Method Distribution
 - Customer Type Analysis
 
+# Omnichannel Retail Analytics Dashboard
+
+## Project Overview
+This project is an interactive Power BI dashboard built to analyze retail sales performance across multiple channels. The dashboard provides insights into revenue, customer types, product performance, regional sales, and promotional campaign effectiveness.
+
+## Dashboard Features
+
+### KPI Cards
+- Total Revenue
+- Total Orders
+
+### Revenue Analysis
+- Revenue by Month (Trend Analysis)
+- Revenue by Region
+- Revenue by Product
+
+### Customer Insights
+- Revenue by Customer Type
+  - Retail
+  - Wholesale
+
+### Interactive Filters
+- Region Slicer
+- Promotion Slicer
+
+### Navigation
+- Multi-page dashboard navigation using Power BI buttons
+
+## Tools & Technologies
+- Power BI Desktop
+- Power Query
+- DAX
+- SQL
+- Microsoft Excel
+
+## Dataset Information
+The dataset contains:
+- Order Details
+- Product Information
+- Customer Type
+- Region
+- Promotion Codes
+- Revenue Metrics
+- Order Dates
+
+## Business Insights
+- Identify top-performing products.
+- Compare retail and wholesale revenue.
+- Analyze monthly revenue trends.
+- Evaluate regional sales performance.
+- Measure the impact of promotions on revenue.
+
+## Dashboard Preview
+
+### Page 1
+- KPI Summary
+- Revenue Trend
+- Revenue by Region
+- Revenue by Product
+- Customer Type Analysis
+
+### Page 2
+- Detailed Sales Analysis
+
+### Page 3
+- Advanced Insights & Drilldowns
+
+## Key Skills Demonstrated
+- Data Cleaning
+- Data Modeling
+- DAX Measures
+- Dashboard Design
+- Data Visualization
+- Business Intelligence
+- Interactive Reporting
+
+
+## Project File
+- omnichannel_retail_dashboard.pbix
+
+
+
+
 # Tools Used
 
 - POWER BI
